@@ -1,3 +1,4 @@
+
 import torch
 from src.ConvNet import ConvNet  # ahora importamos el nuevo modelo
 
