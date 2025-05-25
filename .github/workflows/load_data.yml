@@ -5,8 +5,9 @@ on:
     branches:
       - main
     paths:
-      - 'src/data/load.py'
-
+      - '**.py'
+  workflow_dispatch:
+  
 jobs:
   load_data:
     runs-on: ubuntu-latest
