@@ -5,7 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'src/model/train.py'
+      - '**.py'
+  workflow_dispatch:
 
 jobs:
   train_model:
