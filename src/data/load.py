@@ -18,8 +18,8 @@ def load(train_size=.8):
     """
       
     # the data, split between train and test sets
-    train = torchvision.datasets.MNIST(root='./data', train=True, download=True)
-    test = torchvision.datasets.MNIST(root='./data', train=False, download=True)
+    train = torchvision.datasets.FashionMNIST(root='./data', train=True, download=True)
+    test = torchvision.datasets.FashionMNIST(root='./data', train=False, download=True)
 
     (x_train, y_train), (x_test, y_test) = (train.data, train.targets), (test.data, test.targets)
 
