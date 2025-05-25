@@ -5,7 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'src/model/build.py'
+      - '**.py'
+  workflow_dispatch:
 
 jobs:
   build_model:
